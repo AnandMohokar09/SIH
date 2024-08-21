@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="left-side">
+            <div class="logo">
+                <img src="/Assets/logo.png" alt="Logo">
+            </div>
+            <div class="inner-container">
+                <h2>Welcome back!</h2>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="toggle" class="toggle-checkbox">
+                    <label for="toggle" class="toggle-label">
+                        <span class="toggle-inner"></span>
+                           <span class="toggle-switch-label" id="sign-in-label"><a href="/Signin/Login.html">Sign in</a></span>
+                        <span class="toggle-switch-label" id="sign-up-label"><a href="/Sinup/signup.html">Sign up</a></span>
+                    </label>
+                    
+                    
+                </div>
+                <button class="google-login">
+                    <img src="/Assets/google-logo.png" alt="Google Logo">
+                    Sign in with Google
+                </button>
+                <div class="divider">OR</div>
+                <form>
+                    <input type="email" placeholder="Email" required>
+                    <button type="submit">Continue</button>
+                </form>
+                <p class="terms">By clicking Continue, you agree to our <a href="#">User Agreement</a>, <a
+                        href="#">Privacy Policy</a>, and <a href="#">Cookie Policy</a>.</p>
+            </div>
+        </div>
+        <div class="right-side">
+            <img src="/Assets/background-img.svg" alt="Right Image">
+        </div>
+    </div>
+</body>
+
+</html>
